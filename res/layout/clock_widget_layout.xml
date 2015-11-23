@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/custom_clock_widget"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="@dimen/clock_margin"
+                android:gravity="center">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:src="@drawable/bg"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zones_back" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:src="@drawable/zone_gray"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lines" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:src="@drawable/lines"/>
+
+
+
+     <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/sector_wellington" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+             android:src="@drawable/wellington"/>
+
+    <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/sector_sydney" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+             android:src="@drawable/sydney"/>
+
+
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_tokyo" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/tokyo"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_singapore" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/singapore"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_shanghai" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/shanghai"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_dubai" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/dubai"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_moscow" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/moscow"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_riyadh" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/riyadh"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_johannesburg" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/johannesburg"/>
+<ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_zurich" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/zurich"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_frankfurt" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/frankfurt"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_london" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/london"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_ny" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/ny"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_toronto" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/toronto"/>
+  <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sector_chicago" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+           android:src="@drawable/chicago"/>
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hand_hour" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:src="@drawable/h"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hand_minute" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:src="@drawable/m"/>
+
+    <!--
+        <TextView
+                android:id="@+id/tvTime"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff1bdf27"
+                android:text="99:99"
+                android:layout_alignTop="@+id/back" android:layout_alignLeft="@+id/back"/>
+        <ImageButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu"
+                android:id="@+id/button" android:layout_alignBottom="@+id/back" android:layout_alignRight="@+id/tvTime"/>-->
+
+</RelativeLayout>
