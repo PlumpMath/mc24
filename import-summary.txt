@@ -1,0 +1,106 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/libraries/
+* .idea/libraries/joda_time_2_8_2.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ant.properties
+* build.xml
+* mc24_widget.iml
+* out/
+* out/production/
+* out/production/mc24_widget/
+* out/production/mc24_widget/com/
+* out/production/mc24_widget/com/barabanov/
+* out/production/mc24_widget/com/barabanov/mc24/
+* out/production/mc24_widget/com/barabanov/mc24/AlarmManagerBroadcastReceiver.class
+* out/production/mc24_widget/com/barabanov/mc24/BuildConfig.class
+* out/production/mc24_widget/com/barabanov/mc24/ClockManager.class
+* out/production/mc24_widget/com/barabanov/mc24/ClockWidgetProvider.class
+* out/production/mc24_widget/com/barabanov/mc24/ControlsManager.class
+* out/production/mc24_widget/com/barabanov/mc24/HandControl.class
+* out/production/mc24_widget/com/barabanov/mc24/MyActivity.class
+* out/production/mc24_widget/com/barabanov/mc24/MyAnalogClock$1.class
+* out/production/mc24_widget/com/barabanov/mc24/MyAnalogClock.class
+* out/production/mc24_widget/com/barabanov/mc24/R$attr.class
+* out/production/mc24_widget/com/barabanov/mc24/R$dimen.class
+* out/production/mc24_widget/com/barabanov/mc24/R$drawable.class
+* out/production/mc24_widget/com/barabanov/mc24/R$id.class
+* out/production/mc24_widget/com/barabanov/mc24/R$layout.class
+* out/production/mc24_widget/com/barabanov/mc24/R$string.class
+* out/production/mc24_widget/com/barabanov/mc24/R$xml.class
+* out/production/mc24_widget/com/barabanov/mc24/R.class
+* out/production/mc24_widget/com/barabanov/mc24/RegionControl.class
+* out/production/mc24_widget/com/barabanov/mc24/data/
+* out/production/mc24_widget/com/barabanov/mc24/data/DstData.class
+* out/production/mc24_widget/com/barabanov/mc24/data/HolidayData.class
+* out/production/mc24_widget/com/barabanov/mc24/data/RegionLocalData.class
+* out/production/mc24_widget/com/barabanov/mc24/data/Utility.class
+* out/production/mc24_widget/mc24_widget.apk
+* out/production/mc24_widget/mc24_widget.unaligned.apk
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+joda-time-2.8.2.jar => joda-time:joda-time:2.8.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+joda-time-2.8.2.jar => version 2.8.2 in joda-time:joda-time:2.8.2
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
