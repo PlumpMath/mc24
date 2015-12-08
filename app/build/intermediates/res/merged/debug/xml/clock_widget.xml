@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:minWidth="292dp"
-                    android:minHeight="292dp"
-                    android:updatePeriodMillis="5000"
-                    android:initialLayout="@layout/clock_widget_layout"
-        /><!-- From: file:/Users/maxim/StudioProjects/mc24_widget/app/src/main/res/xml/clock_widget.xml -->

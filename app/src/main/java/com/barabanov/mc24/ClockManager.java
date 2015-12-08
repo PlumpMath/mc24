@@ -53,9 +53,11 @@ public class ClockManager {
 
         getRegionData(1).initDST(new DstData(8, DstData.DAY_LAST), new DstData(3, DstData.DAY_FIRST), 1);
         getRegionData(2).initDST(new DstData(9, DstData.DAY_FIRST), new DstData(3, DstData.DAY_FIRST), 1);
+
         getRegionData(10).initDST(new DstData(2, DstData.DAY_LAST), new DstData(9, DstData.DAY_LAST), 1);
         getRegionData(11).initDST(new DstData(2, DstData.DAY_LAST), new DstData(9, DstData.DAY_LAST), 1);
         getRegionData(12).initDST(new DstData(2, DstData.DAY_LAST), new DstData(9, DstData.DAY_LAST), 1);
+
         getRegionData(13).initDST(new DstData(2, DstData.DAY_SECOND), new DstData(10, DstData.DAY_FIRST), 1);
         getRegionData(14).initDST(new DstData(2, DstData.DAY_SECOND), new DstData(10, DstData.DAY_FIRST), 1);
         getRegionData(15).initDST(new DstData(2, DstData.DAY_SECOND), new DstData(10, DstData.DAY_FIRST), 1);
